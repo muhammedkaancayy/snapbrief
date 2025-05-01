@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SnapBrief - Günün Özeti</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <img src="A_logo_for_a_platform_named_SnapBrief_is_displayed2.png" alt="SnapBrief Logo" style="max-width: 210px; margin-bottom: 0.5rem;">
+    <div class="date">Bugünün Özeti – 1 Mayıs 2025</div>
+  </header>
+
+  <main>
+    <div class="filters">
+      <button class="filter-btn">En Son</button>
+      <button class="filter-btn">Günlük</button>
+      <button class="filter-btn">Haftalık</button>
+      <button class="filter-btn">Aylık</button>
+    </div>
+    <div class="news-list" id="newsList"></div>
+  </main>
+
+  <div id="detailModal" onclick="if(event.target === this) this.style.display='none'">
+    <div id="detailContent">
+      <button id="closeModal" onclick="document.getElementById('detailModal').style.display='none'">&times;</button>
+      <h2 id="detailTitle">Detay Başlık</h2>
+      <p id="detailText">Detay metni burada görünecek.</p>
+    </div>
+  </div>
+
+  <button onclick="requestNotificationPermission()" style="position: fixed; bottom: 1rem; right: 1rem; padding: 0.6rem 1rem; background: #0057ff; color: white; border: none; border-radius: 8px; cursor: pointer; z-index: 1001; box-shadow: 0 2px 8px rgba(0,0,0,0.2);">🔔 Bildirimleri Aç</button>
+
+  <footer>
+    SnapBrief — Yapay zeka destekli kısa ve öz özet haber platformu.
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
+&

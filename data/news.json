@@ -2,4 +2,10 @@
   "title": "Ankara'da sağanak ve dolu yağışı etkili oldu",
   "summary": "Ankara'da etkili olan sağanak yağışı hayatı olumsuz etkiledi. Polatlı ilçesinde alt geçitler suyla dolarken, bazı ev ve iş yerlerini su bastı.",
   "date": "2024-05-16"
+},
+{
+         title: "İstanbul'da Deprem",
+         summary: "Marmara açıklarında 4.1 büyüklüğünde deprem meydana geldi.",
+         detail: "Bu sabah Marmara Denizi açıklarında 4.1 büyüklüğünde bir deprem meydana geldi. Deprem çevre illerde de hissedildi, can kaybı yaşanmadı.",
+         date: "2025-05-01"
 }
